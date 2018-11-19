@@ -6,23 +6,23 @@ phraseapp:
     targets:
     - file: ./app/src/main/res/values-de/strings.xml
       params:
-        locale_id: bdcafe58f50b780810c773599c2a7f80
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
     - file: ./app/src/main/res/values/strings.xml
       params:
-        locale_id: f0b879f57b96c40c6683199cb9eaff27
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
     - file: ./app/src/main/res/values-de/strings.xml
       params:
-        locale_id: bdcafe58f50b780810c773599c2a7f80
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
     - file: ./app/src/main/res/values/strings.xml
       params:
-        locale_id: f0b879f57b96c40c6683199cb9eaff27
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
   push:
     sources:
     - file: ./app/src/main/res/values/strings.xml
       params:
-        locale_id: f0b879f57b96c40c6683199cb9eaff27
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
         update_translations: true
     - file: ./app/src/main/res/values-de/strings.xml
       params:
-        locale_id: bdcafe58f50b780810c773599c2a7f80
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
         update_translations: true
