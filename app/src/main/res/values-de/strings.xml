@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources/>
+<resources>
+    <string name="app_name">TextResourcesDemo</string>
+    <string name="hello_world">Hallo Welt! 2</string>
+    <!-- This was added from the PhraseApp portal, should be pulled into the Android project -->
+    <string name="key_from_portal">Hallo von Web Portal</string>
+</resources>

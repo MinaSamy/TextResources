@@ -5,14 +5,24 @@ phraseapp:
   pull:
     targets:
     - file: ./app/src/main/res/values-de/strings.xml
-      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
+      params:
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
     - file: ./app/src/main/res/values/strings.xml
-      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
+      params:
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
     - file: ./app/src/main/res/values-de/strings.xml
-      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
+      params:
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
     - file: ./app/src/main/res/values/strings.xml
-      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
+      params:
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
   push:
     sources:
     - file: ./app/src/main/res/values/strings.xml
-      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
+      params:
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
+        update_translations: true
+    - file: ./app/src/main/res/values-de/strings.xml
+      params:
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
+        update_translations: true
