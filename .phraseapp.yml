@@ -1,0 +1,18 @@
+phraseapp:
+  access_token: 070911a66afe4f095034506feb0668579fe003f43aa6adcca1e6f1603fa7bd87
+  file_format: xml
+  project_id: 4f5b72ffb798b9b7556cd8271bbc111a
+  pull:
+    targets:
+    - file: ./app/src/main/res/values-de/strings.xml
+      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
+    - file: ./app/src/main/res/values-de/strings.xml
+      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
+  push:
+    sources:
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
