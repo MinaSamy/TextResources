@@ -16,6 +16,7 @@ phraseapp:
     - file: ./app/src/main/res/values/strings.xml
       params:
         locale_id: 395b619157ddf44a7d153c24520ed9ec
+    - file: ./app/src/main/res/values-pt/strings.xml
   push:
     sources:
     - file: ./app/src/main/res/values/strings.xml
