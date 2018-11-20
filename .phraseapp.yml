@@ -5,30 +5,22 @@ phraseapp:
   pull:
     targets:
     - file: ./app/src/main/res/values-de/strings.xml
-      params:
-        locale_id: 0cb88e22a1315a4d470b0cffe322383e
+      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
     - file: ./app/src/main/res/values/strings.xml
-      params:
-        locale_id: 395b619157ddf44a7d153c24520ed9ec
+      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
     - file: ./app/src/main/res/values-de/strings.xml
-      params:
-        locale_id: 0cb88e22a1315a4d470b0cffe322383e
+      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
     - file: ./app/src/main/res/values/strings.xml
-      params:
-        locale_id: 395b619157ddf44a7d153c24520ed9ec
+      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
     - file: ./app/src/main/res/values-pt/strings.xml
       params:
         file_format: xml
   push:
     sources:
     - file: ./app/src/main/res/values/strings.xml
-      params:
-        locale_id: 395b619157ddf44a7d153c24520ed9ec
-        update_translations: true
+      params: {locale_id: 76376525deccd1aca3a01328c04e8764}
     - file: ./app/src/main/res/values-de/strings.xml
-      params:
-        locale_id: 0cb88e22a1315a4d470b0cffe322383e
-        update_translations: true
+      params: {locale_id: 317abfc2e9e52d0a0d4795eca9f24cce}
     - file: ./app/src/main/res/values-pt/strings.xml
       params:
         file_format: xml
