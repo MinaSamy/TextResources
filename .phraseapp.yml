@@ -1,13 +1,34 @@
 phraseapp:
-  access_token: 384a6eb5f97b7a014645377919afdafa020b9ce29d91273509162ae90d8e403e
+  access_token: 070911a66afe4f095034506feb0668579fe003f43aa6adcca1e6f1603fa7bd87
+  file_format: xml
   project_id: 4f5b72ffb798b9b7556cd8271bbc111a
-  push:
-    sources:
-    - file: ./values-pt-strings.xml
-      params:
-        file_format: xml
   pull:
     targets:
-    - file: ./values-pt/strings.xml
+    - file: ./app/src/main/res/values-de/strings.xml
+      params:
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
+    - file: ./app/src/main/res/values-de/strings.xml
+      params:
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
+    - file: ./app/src/main/res/values-pt/strings.xml
+      params:
+        file_format: xml
+  push:
+    sources:
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        locale_id: 395b619157ddf44a7d153c24520ed9ec
+        update_translations: true
+    - file: ./app/src/main/res/values-de/strings.xml
+      params:
+        locale_id: 0cb88e22a1315a4d470b0cffe322383e
+        update_translations: true
+    - file: ./app/src/main/res/values-pt/strings.xml
       params:
         file_format: xml
