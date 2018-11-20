@@ -18,7 +18,7 @@ phraseapp:
         locale_id: 395b619157ddf44a7d153c24520ed9ec
     - file: ./app/src/main/res/values-pt/strings.xml
       params:
-        locale_id: 123
+        locale_id: 456
   push:
     sources:
     - file: ./app/src/main/res/values/strings.xml
@@ -31,4 +31,4 @@ phraseapp:
         update_translations: true
     - file: ./app/src/main/res/values-pt/strings.xml
       params:
-        locale_id: 123
+        locale_id: 456
